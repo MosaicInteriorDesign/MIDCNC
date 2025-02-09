@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -159,4 +161,29 @@ nav ul li a {
         max-width: 100%;
         transform: none;
     }   
+}
+
+.contact-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin: 10px 0;
+}
+
+.contact-label {
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    color: #6b5341;
+    font-style: italic;
+}
+
+.contact-detail {
+    font-family: 'Courier New', Courier, monospace;
 }
