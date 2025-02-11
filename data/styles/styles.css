@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Playfair Display', serif;
     margin: 0;
     padding: 0;
     background-color: #f8f5f2;
@@ -186,4 +186,97 @@ nav ul li a {
 
 .contact-detail {
     font-family: 'Courier New', Courier, monospace;
+}
+
+.essay {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em; /* Increase font size */
+    font-weight: bold; /* Make text bold */
+}
+
+.contact-us {
+    font-size: 1.em; /* Increase font size */
+    font-weight: bold; /* Make text bold */
+    display: block;
+    margin-top: 20px;
+}
+
+.btn-main {
+    position: relative;
+    overflow: hidden;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-main:hover {
+    background-color: #0056b3;
+}
+
+.btn-main::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    transform: scale(0);
+    transform-origin: center;
+    transition: transform 0.5s, opacity 1s;
+    opacity: 0;
+}
+
+.btn-main:active::after {
+    transform: scale(2);
+    opacity: 1;
+    transition: 0s;
+}
+
+.nav-btn {
+    position: relative;
+    overflow: hidden;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #a0522d; /* Lighter brown */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav-btn:hover {
+    background-color: #8b4513; /* Darker brown */
+}
+
+.nav-btn::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    transform: scale(0);
+    transform-origin: center;
+    transition: transform 0.5s, opacity 1s;
+    opacity: 0;
+}
+
+.nav-btn:active::after {
+    transform: scale(2);
+    opacity: 1;
+    transition: 0s;
 }

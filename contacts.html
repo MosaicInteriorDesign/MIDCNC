@@ -1,40 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+      
+        gtag('config', 'G-3FYEYL5818');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Customs | CNC & Laser Service</title>
+    <title>Contacts - Mosaic Interior Design</title>
     <link rel="stylesheet" href="data/styles/styles.css">
+    <style>
+        .contact-section {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .contact-info {
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact-info li {
+            margin: 10px 0;
+        }
+
+        .contact-label {
+            font-weight: bold;
+            font-family: 'Playfair Display', serif;
+            color: #6b5341;
+            font-style: italic;
+        }
+
+        .contact-detail {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .facebook-button {
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .facebook-button img {
+            width: 250px;
+            height: 170px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="data/images/logo.png" alt="Mosaic Interior Design Logo">
+        <div>
+            <h1>Mosaic Interior Design</h1>
+            <p>Contacts</p>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="customs.html">Customs</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
         </div>
-        <h1>Mosaic Interior Design</h1>
-        <p>Customs</p>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="customs.html">Customs</a></li>
-                <li><a href="contacts.html">Contacts</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-            </ul>
-        </nav>
     </header>
+
     <main>
-        <section class="interactive-banner">
-            <div class="banner-content">
-                <img src="data/images/logo.png" alt="Mosaic Interior Design Logo" class="logo-banner">
-                <h2>A selection of creative works.</h2>
-                <button class="view-collection">VIEW COLLECTION</button>
-            </div>
-            <div class="banner-image">
-                <img src="data/images/banner.png" alt="CNC Art" id="parallax-image">
+        <section class="contact-section">
+            <h2>Contact Us</h2>
+            <ul class="contact-info">
+                <li><span class="contact-label">Phone:</span> <span class="contact-detail">443-824-8415</span></li>
+                <li><span class="contact-label">Email:</span> <span class="contact-detail">mosaic.idesign@gmail.com</span></li>
+            </ul>
+            <div class="facebook-button">
+                <a href="https://www.facebook.com/profile.php?id=100069034838362#" target="_blank">
+                    <img src="data/images/face.png" alt="Facebook">
+                </a>
             </div>
         </section>
     </main>
 
-    <script src="data/scripts/home.js"></script>
+    <!-- JavaScript -->
 </body>
 </html>
